@@ -1,18 +1,17 @@
 @import "https://cdn.skypack.dev/ol/ol.css";
 
-html,
+/* html,
 body {
   margin: 0;
   height: 100%;
-}
+} */
 
-
-    #map {
-        width: 80%; /* Set the desired width */
-        height: 400px; /* Set the desired height */
-        margin: 0 auto; /* Center the map horizontally */
-    }
-
+/* #map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+} */
 
 .ol-popup {
   position: absolute;

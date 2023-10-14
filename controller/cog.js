@@ -1,6 +1,6 @@
 import {map,idmarker} from '../config/peta.js';
-import {insertMarkerCOG} from '../controller/marker.js';
-import {disposePopover} from '../controller/popup.js';
+import {insertMarkerCOG} from './marker.js';
+import {disposePopover} from './popup.js';
 import {hide} from 'https://jscroot.github.io/element/croot.js';
 
 export function getAllCoordinates(){
