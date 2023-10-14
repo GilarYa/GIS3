@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
-                if (feature.geometry.type === "Polygon") {
+                if (feature.geometry.type === "Point") {
                     const row = pointTable.insertRow();
                     const nameCell = row.insertCell(0);
                     const coordinatesCell = row.insertCell(1);
