@@ -1,4 +1,4 @@
-export let URLGeoJson = "https://asia-southeast2-argon-fire-401902.cloudfunctions.net/fetchGeoJson";
+export let URLGeoJson = "https://asia-southeast2-gilartest.cloudfunctions.net/gilarch3";
 export let tableTag="tr";
 export let tableRowClass="content is-small";
 export let tableTemplate=`
