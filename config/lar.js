@@ -9,7 +9,7 @@ import {getAllCoordinates} from '../controller/cog.js';
 document.addEventListener("DOMContentLoaded", () => {
     const pointTable = document.getElementById("gisTable").getElementsByTagName('tbody')[0];
 
-    fetch("https://asia-southeast2-gilartest.cloudfunctions.net/gilarch3") // Ganti "data.json" dengan nama file JSON Anda
+    fetch("https://asia-southeast2-argon-fire-401902.cloudfunctions.net/fetchGeoJson") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const pointTable = document.getElementById("gisTable2").getElementsByTagName('tbody')[0];
 
-    fetch("https://asia-southeast2-gilartest.cloudfunctions.net/gilarch3") // Ganti "data.json" dengan nama file JSON Anda
+    fetch("https://asia-southeast2-argon-fire-401902.cloudfunctions.net/fetchGeoJson") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const pointTable = document.getElementById("gisTable3").getElementsByTagName('tbody')[0];
 
-    fetch("https://asia-southeast2-gilartest.cloudfunctions.net/gilarch3") // Ganti "data.json" dengan nama file JSON Anda
+    fetch("https://asia-southeast2-argon-fire-401902.cloudfunctions.net/fetchGeoJson") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
