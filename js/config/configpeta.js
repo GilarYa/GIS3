@@ -9,7 +9,7 @@ import {container} from 'https://jscroot.github.io/element/croot.js';
 
 const attributions = '<a href="https://petapedia.github.io/" target="_blank">&copy; PetaPedia Indonesia</a> ';
 
-const place = [107.29297214389481,-6.324581351021266];
+const place = [95.31757807226461,5.567512542376633];
 
 export let idmarker = {id:1};
 
@@ -21,7 +21,7 @@ const basemap = new TileLayer({
 
 const defaultstartmap = new View({
   center: fromLonLat(place),
-  zoom: 15,
+  zoom: 14,
 });
 
 export const overlay = new Overlay({
@@ -50,3 +50,4 @@ export let map = new Map({
   target: 'map',
   view: defaultstartmap,
 });
+

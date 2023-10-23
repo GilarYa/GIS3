@@ -1,6 +1,6 @@
 import {setInner,addChild } from "https://jscroot.github.io/element/croot.js";
-import {tableTemplate, tableRowClass, tableTag} from "./template.js";
-import {map} from '../config/peta.js';
+import {tableTemplate, tableRowClass, tableTag} from "../template/template.js";
+import {map} from '../config/configpeta.js';
 
 export function isiRowPoint(value){
     if (value.geometry.type === "Point") {
@@ -25,20 +25,6 @@ export function isiRowPolyline(value){
     addChild("line",tableTag,tableRowClass,content);
     }
 }
-
-// export function MakeGeojsonFromAPI(value) {
-//     // Create a GeoJSON feature collection
-//     const geojsonFeatureCollection = {
-//         type: "FeatureCollection",
-//         features: value
-//     };
-
-//     // Convert the GeoJSON feature collection to a JSON string
-//     const geojsonString = JSON.stringify(geojsonFeatureCollection, null, 2);
-
-//     // Return the JSON string
-//     return geojsonString;
-// }
 
 export function MakeGeojsonFromAPI(value) {
     const geojsonFeatureCollection = {
